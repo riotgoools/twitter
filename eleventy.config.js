@@ -36,4 +36,7 @@ module.exports = function(eleventyConfig) {
 		console.log('[pagefind] Creating search index.');
 		execSync(`npx pagefind --site _site --glob \"[0-9]*/**/*.html\"`, { encoding: 'utf-8' });
   });
+
+  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+    return {pathPrefix: "/twitter/"}
 };
