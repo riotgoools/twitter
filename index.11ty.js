@@ -282,13 +282,6 @@ class Index extends Twitter {
 			</ol>
 		</div>
 
-		<div>
-			<h2><a href="/popular/">Popular:</a></h2>
-			<ol class="tweets tweets-linear-list">
-				${mostPopularTweetsHtml.join("")}
-			</ol>
-		</div>
-
 		<h2 id="retweets">I’ve retweeted other tweets ${this.renderNumber(retweetCount)} times (${this.renderPercentage(retweetCount, tweetCount)})</h2>
 		<div class="lo" style="--lo-stackpoint: 20em">
 			<div class="lo-c">
