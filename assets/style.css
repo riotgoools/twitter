@@ -232,7 +232,7 @@ h1 .tweet-avatar {
 }
 img.tweet-media {
 	display: block;
-	width: 100%;
+	width: auto;
 	height: 100%;
 	border: 1px solid #ccc;
 }
