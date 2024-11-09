@@ -37,6 +37,4 @@ module.exports = function(eleventyConfig) {
 		execSync(`npx pagefind --source _site --glob \"[0-9]*/**/*.html\"`, { encoding: 'utf-8' });
   });
 
-  eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-    return {pathPrefix: "/twitter/"}
 };
